@@ -8,7 +8,7 @@ const Signup = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://food-app-woad-iota.vercel.app/createuser', {
+    const response = await fetch('https://food-app-woad-iota.vercel.app/api/createuser', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
