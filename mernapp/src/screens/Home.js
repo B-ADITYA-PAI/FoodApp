@@ -9,7 +9,7 @@ export default function Home() {
   const [foodItems, setFoodItems] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://food-app-woad-iota.vercel.app/foodData", {
+    let response = await fetch("https://food-app-woad-iota.vercel.app/api/foodData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
