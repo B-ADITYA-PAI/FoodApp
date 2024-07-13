@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.use(cors({
-  origin: 'https://food-app-woad-iota.vercel.app/'
+  origin: 'https://food-app-woad-iota.vercel.app'
 }));
 
 app.use(express.json());
