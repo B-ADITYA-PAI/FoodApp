@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 app.use(cors({
-  origin: 'https://vercel.com/b-aditya-pais-projects/frontend-mern'
+  origin: 'https://frontend-mern-indol.vercel.app/'
 }));
 
 app.use(express.json());
