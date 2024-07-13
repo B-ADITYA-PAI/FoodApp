@@ -1,0 +1,43 @@
+/* MyOrder.css */
+.order-container {
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_640.jpg');
+    background-size: cover; /* Adjust the background size */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    padding: 20px; /* Optional: Add some padding */
+}
+
+
+.order-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.order-item h3 {
+    margin-top: 0;
+}
+
+.order-item p {
+    margin: 5px 0;
+}
+
+.order-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.order-item img {
+    width: 100px;
+    border-radius: 4px;
+}
