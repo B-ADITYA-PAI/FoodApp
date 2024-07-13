@@ -13,7 +13,7 @@ export default function MyOrder() {
 
     const fetchOrders = async () => {
         try {
-            const response = await fetch('https://food-app-woad-iota.vercel.app/myorderData', {
+            const response = await fetch('https://food-app-woad-iota.vercel.app/api/myorderData', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
