@@ -13,7 +13,7 @@ export default function MyOrder() {
 
     const fetchOrders = async () => {
         try {
-            const response = await fetch('https://food-app-git-main-b-aditya-pais-projects.vercel.app/api/myorderData', {
+            const response = await fetch('https://localhost:PORT/api/myorderData', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
